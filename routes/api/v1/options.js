@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-console.log("inside options router")
+//console.log("inside options router")
 const optionsController = require('../../../controllers/api/v1/optionsController');
 
 router.delete('/:id/delete', optionsController.deleteOption);

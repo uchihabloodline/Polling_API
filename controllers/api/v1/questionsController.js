@@ -40,6 +40,7 @@ module.exports.viewQuestion= async function(req,res){
   
 //delete question controller
 module.exports.delQuestion = async function(req,res){
+        //test code for checking deletion
         // let question= await Question.findById(req.params.id);
         // question.remove();
         // await Option.deleteMany({question:req.params.id});
